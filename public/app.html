@@ -2,6 +2,7 @@
 <meta charset='utf-8'>
 <title>app</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://localhost:3030/primus/primus.js"></script>
 <script>
   (function () {
     var buildFrame = document.createElement('iframe');
@@ -9,7 +10,7 @@
 
     var tailFrame = document.createElement('iframe');
     tailFrame.src = 'log.html';
-    
+
     function onStart () {
       document.body.appendChild(buildFrame);
     }
@@ -32,7 +33,7 @@
     }
 
     window.addEventListener("message", receiveMessage, false);
-    window.start = onStart; 
+    window.start = onStart;
   })();
 </script>
 <body onload="window.start();">
