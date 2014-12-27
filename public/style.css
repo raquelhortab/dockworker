@@ -1,20 +1,8 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  box-sizing:border-box;
-  background: #383734; /* grey bg */
-}
-html{
-  padding:8px;
-}
 .terminal {
   font-family: "DejaVu Sans Mono", "Liberation Mono", monospace;
-  font-size: 11px;
+  font-size: 14px;
   display: inline-block;
-  background: #383734 !important; /* grey bg */
+  background: #000 !important; /* black bg */
 }
 .focused .reverse-video {
   color: #383734;
@@ -28,4 +16,6 @@ html{
   top: calc(50%-18px);
   text-align: center;
   color: white;
+}
+.terminal-cursor {
 }
