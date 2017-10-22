@@ -33,13 +33,13 @@
   },
   "devDependencies": {
     "browserify": "~2.29.0",
-    "term.js": "chjj/term.js",
+    "term.js": "hackermirror/term.js",
     "es5-shimify": "~2.0.5",
     "mocha": "~1.12.1",
     "hyperquest": "~0.1.7",
     "fake-fs": "~0.2.1",
     "jshint": "~2.3.0",
     "fixmyjs": "~0.13.1",
-    "ws": "~0.4.31"
+    "ws": "~0.6.5"
   }
 }
