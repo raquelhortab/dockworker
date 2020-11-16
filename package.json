@@ -5,7 +5,7 @@
   "description": "daemon running on the docker containers",
   "main": "index.js",
   "dependencies": {
-    "pty.js": "~0.3.0",
+    "pty": "platformio/pty.js",
     "mux-demux": "~3.7.8",
     "express": "~3.3.6",
     "concat-stream": "~1.0.1",
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "browserify": "~2.29.0",
-    "term.js": "hackermirror/term.js",
+    "xterm": "=3.10.1",
     "es5-shimify": "~2.0.5",
     "mocha": "~1.12.1",
     "hyperquest": "~0.1.7",
